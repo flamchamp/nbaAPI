@@ -10,6 +10,7 @@ from nba_api.stats.static import players
 from nba_api.stats.endpoints import commonplayerinfo
 
 loop = 1
+player = {}
 while(loop):
     nba_name = input("Enter an NBA Player's name: ")
     player = players.find_players_by_full_name(nba_name)
