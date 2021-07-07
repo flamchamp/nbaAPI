@@ -19,6 +19,10 @@ while(loop):
     else:
         loop = 0
 print(player)
+print(player)
+print(player)
+# user_id = player.get("id")
+# print(user_id)
 
 
 # Basic Request
